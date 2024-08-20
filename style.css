@@ -1,4 +1,27 @@
-html {
-  height: 100%;
-  width: 100%;
+:root{
+  --cor-fundo: #2C3A3D ;
+  --cor-destaque:#00F0E0;
+  --cor-texto: #FEFEFE;
+}
+
+body{
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+strong{
+  color: var(--cor-destaque);
+}
+
+a {
+  background-color: var(--cor-destaque);
+  color: var(--cor-texto);
+  padding: 15px 40px;
+  margin: 20px 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
