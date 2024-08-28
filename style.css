@@ -25,3 +25,10 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   
 }
+
+.apresentação{
+  display: flex;
+}
+.foto{
+  height: 490px;
+}
